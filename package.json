@@ -2,7 +2,16 @@
     "private": true,
     "name": "frontfactory.dev",
     "description": "The FrontFactory website.",
+    "type": "module",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "prepare": "husky"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.1",
+        "@commitlint/config-conventional": "^19.8.1",
+        "husky": "^9.1.7"
     }
 }
