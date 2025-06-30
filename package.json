@@ -1,0 +1,8 @@
+{
+    "private": true,
+    "name": "frontfactory.dev",
+    "description": "The FrontFactory website.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
