@@ -1,2 +1,3 @@
 # website
-The ForntFactory website.
+
+The FrontFactory website.
