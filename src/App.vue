@@ -4,7 +4,7 @@
 
 <template>
     <header>
-        <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="364" height="60"/>
+        <img alt="Front Factory" class="logo" src="./assets/logo.svg" width="500" height="132"/>
     </header>
 </template>
 
