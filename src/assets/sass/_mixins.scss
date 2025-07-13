@@ -1,0 +1,62 @@
+// ============================================================================================= //
+//                                            MIXINS                                             //
+// ============================================================================================= //
+
+@use "@unsass/rem";
+
+// ------------------------------------------------------------------------- //
+// Public mixins
+// ------------------------------------------------------------------------- //
+
+@mixin styles() {
+    html,
+    body {
+        @include rem.baseline;
+
+        background: var(--color-background, #fff);
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    * {
+        box-sizing: inherit;
+
+        // --------------------------------- //
+        // Before / After
+        // --------------------------------- //
+
+        &::before,
+        &::after {
+            box-sizing: inherit;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        height: 100%;
+        place-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --color-background: #181818;
+        }
+
+        img {
+            content: url("../logo-dark.svg");
+        }
+    }
+}

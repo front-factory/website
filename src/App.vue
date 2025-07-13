@@ -3,22 +3,11 @@
 </script>
 
 <template>
-    <header>
-        <img alt="Front Factory" class="logo" src="./assets/logo.svg" width="500" height="132"/>
-    </header>
+    <div :class="$style['wrapper']">
+        <img alt="Front Factory" :class="$style['logo']" src="./assets/logo.svg" width="500" height="132"/>
+    </div>
 </template>
 
-<style scoped>
-header {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    line-height: 1.5;
-    justify-content: center;
-}
-
-.logo {
-    display: block;
-    margin: 0 auto;
-}
+<style module lang="scss">
+@use "./assets/sass/styles";
 </style>
