@@ -5,7 +5,8 @@
 <template>
     <div :class="$style['wrapper']">
         <h1>
-            <img alt="Front Factory" :class="$style['logo']" src="./assets/logo.svg" width="500" height="132"/>
+            <img :class="$style['logo']" src="./assets/logo.svg" width="500" height="132" alt="Front Factory"
+                 fetchpriority="high"/>
         </h1>
     </div>
 </template>
