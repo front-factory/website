@@ -27,7 +27,7 @@
         "typescript": "~5.8.0",
         "vite": "^7.0.4",
         "vite-plugin-vue-devtools": "^7.7.7",
-        "vue-tsc": "^3.0.1"
+        "vue-tsc": "^3.0.5"
     },
     "dependencies": {
         "@unsass/rem": "^2.3.0",
