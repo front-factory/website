@@ -20,6 +20,7 @@
         "husky": "^9.1.7"
     },
     "dependencies": {
+        "@nuxtjs/sitemap": "^7.4.3",
         "@unsass/rem": "^2.3.0",
         "nuxt": "^4.0.3",
         "nuxt-gtag": "^4.0.0",

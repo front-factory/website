@@ -7,6 +7,7 @@ export default defineNuxtConfig({
         enabled: true
     },
     modules: [
+        '@nuxtjs/sitemap',
         'nuxt-gtag'
     ],
     app: {
@@ -57,6 +58,10 @@ export default defineNuxtConfig({
                 }
             ]
         }
+    },
+    site: {
+        url: `${ SITE_URL }`,
+        name: `${ SITE_DESCRIPTION }`
     },
     gtag: {
         id: 'G-3Z9X6PCKWD'
