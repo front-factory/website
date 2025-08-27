@@ -2,9 +2,20 @@
 *.log
 *.map
 *.orig
+.env
+.env.*
+!.env.example
 
 ## Folders
+/.DS_Store
+/.cache
+/.data
+/.fleet
 /.idea
+/.nitro
+/.nuxt
+/.output
 /.vite
 /dist
+/logs
 /node_modules

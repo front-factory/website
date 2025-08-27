@@ -4,11 +4,11 @@
     "description": "The FrontFactory website.",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "run-p type-check \"build-only {@}\" --",
-        "preview": "vite preview",
-        "build-only": "vite build",
-        "type-check": "vue-tsc --build",
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
         "prepare": "husky"
     },
     "engines": {
@@ -17,21 +17,13 @@
     "devDependencies": {
         "@commitlint/cli": "^19.8.1",
         "@commitlint/config-conventional": "^19.8.1",
-        "@tsconfig/node22": "^22.0.2",
-        "@types/node": "^24.3.0",
-        "@vitejs/plugin-vue": "^6.0.1",
-        "@vue/tsconfig": "^0.8.1",
-        "@vueuse/head": "^2.0.0",
-        "husky": "^9.1.7",
-        "npm-run-all2": "^8.0.4",
-        "typescript": "^5.9.2",
-        "vite": "^7.1.2",
-        "vite-plugin-vue-devtools": "^8.0.0",
-        "vue-tsc": "^3.0.5"
+        "husky": "^9.1.7"
     },
     "dependencies": {
         "@unsass/rem": "^2.3.0",
+        "nuxt": "^4.0.3",
         "sass": "^1.90.0",
-        "vue": "^3.5.18"
+        "vue": "^3.5.20",
+        "vue-router": "^4.5.1"
     }
 }
