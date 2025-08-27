@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "frontfactory.dev",
-    "description": "The FrontFactory website.",
+    "description": "The Front Factory website.",
     "type": "module",
     "scripts": {
         "dev": "nuxt dev",
