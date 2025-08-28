@@ -59,6 +59,9 @@ export default defineNuxtConfig({
             ]
         }
     },
+    css: [
+        '@/assets/sass/styles.scss'
+    ],
     site: {
         url: `${ SITE_URL }`,
         name: `${ SITE_DESCRIPTION }`
