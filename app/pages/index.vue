@@ -12,6 +12,8 @@
                 <img src="/logo.svg" width="500" height="132" alt="Front Factory" fetchpriority="high">
             </picture>
         </h1>
+
+        <a :class="$style['contact-link']" href="mailto:contact@frontfactory.dev">contactez-moi</a>
     </div>
 </template>
 
