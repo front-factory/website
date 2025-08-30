@@ -22,10 +22,6 @@ export default defineNuxtConfig({
                     content: 'UTF-8'
                 },
                 {
-                    name: 'canonical',
-                    content: `${ SITE_URL }`
-                },
-                {
                     name: 'description',
                     content: `${ SITE_DESCRIPTION }`
                 },
@@ -51,6 +47,10 @@ export default defineNuxtConfig({
                 }
             ],
             link: [
+                {
+                    rel: 'canonical',
+                    href: `${ SITE_URL }`
+                },
                 {
                     rel: 'icon',
                     type: 'image/x-icon',
