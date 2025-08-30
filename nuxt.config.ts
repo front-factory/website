@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { SITE_URL, SITE_NAME, SITE_DESCRIPTION } from './config';
+import { SITE_URL, SITE_DESCRIPTION, SITE_TITLE } from './config';
 
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     ],
     app: {
         head: {
-            title: `${ SITE_NAME } - ${ SITE_DESCRIPTION }`,
+            title: `${ SITE_TITLE }`,
             htmlAttrs: {
                 lang: 'fr'
             },
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
                 },
                 {
                     name: 'og:title',
-                    content: `${ SITE_NAME }`
+                    content: `${ SITE_TITLE }`
                 },
                 {
                     name: 'og:description',

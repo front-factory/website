@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import { SITE_NAME } from '~~/config';
 </script>
 
 <template>
@@ -9,7 +9,7 @@
                 <source srcset="/logo-dark.svg" media="(prefers-color-scheme: dark)">
                 <source srcset="/logo.svg" media="(prefers-color-scheme: light)">
 
-                <img src="/logo.svg" width="500" height="132" alt="Front Factory" fetchpriority="high">
+                <img src="/logo.svg" width="500" height="132" :alt="SITE_NAME" fetchpriority="high">
             </picture>
         </h1>
 
