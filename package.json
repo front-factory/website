@@ -18,12 +18,12 @@
         "husky": "^9.1.7"
     },
     "dependencies": {
-        "@nuxtjs/sitemap": "^7.4.7",
+        "@nuxtjs/sitemap": "^7.4.8",
         "@unsass/rem": "^2.3.0",
         "nuxt": "^4.2.1",
         "nuxt-gtag": "^4.1.0",
         "sass": "^1.93.3",
-        "vue": "^3.5.24",
+        "vue": "^3.5.25",
         "vue-router": "^4.6.3"
     }
 }
